@@ -1,0 +1,109 @@
+.header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #cacaca;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        width: 100%;
+        box-shadow: 0px 5px 24px rgba(149, 157, 165, 0.4);
+        height: 80px;
+    
+}
+.listContainer{
+
+}
+.list{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    list-style: none;
+    line-height: 50%;
+    
+    
+}
+
+/* تگ لینک همان تگ ای می باشد */
+.list li a {
+    text-decoration: none;
+    color: #1a73e8;
+  transition: all 0.2s ease;
+
+}
+.list a:hover{
+    color: #0b499b;
+    
+}
+
+.logo  {
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.ReactLogo {
+    width: 110px;
+    margin-right: 15px;
+}
+.logo a {
+    text-decoration: none;
+     
+ }  
+
+ .shopLogo {
+    position: relative;
+    /* width: 90px; */
+
+ }
+ .shopLogo img:hover {
+     width: 60px;
+     opacity: 0.3;
+ }
+
+ .shopLogo img {
+    width: 70px;
+  color: #1a73e8;
+
+ }
+
+ .shopLogo span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffff;
+    font-weight: bold;
+    background-color: red;
+    width: 25px;
+    height: 20px;
+    border-radius: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    padding-bottom: 8px;
+    -webkit-border-radius: 80%;
+    -moz-border-radius: 80%;
+    -ms-border-radius: 80%;
+    -o-border-radius: 80%;
+}
+/* /////////////////////////////// */
+
+
+@media (max-width: 1200px) {
+    .header{
+      padding: 15px 40px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 15px ;
+    }
+  }
+  
+  /* @media (max-width: 555px) {
+    .header {
+      padding: 15px ;
+    }
+  } */

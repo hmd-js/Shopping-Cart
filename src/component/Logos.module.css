@@ -1,0 +1,26 @@
+.container{
+    text-align: center;
+  
+    margin-top: 20px;
+    margin-bottom: 33px;
+   
+}
+.container h3{
+   
+    
+    font-size:40px ;
+}
+.container div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}

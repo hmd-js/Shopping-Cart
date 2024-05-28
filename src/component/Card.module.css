@@ -1,0 +1,88 @@
+
+
+.container{
+   width: 300px;
+   margin: 10px;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+
+   background-color: #bababa;
+   overflow: hidden;
+   box-shadow: 20px 20px 50px;
+   text-align: center;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    
+}
+.card h1{
+    color: blue;
+    font-size: medium;
+    
+   
+    
+}
+.price{
+    display: inline-flex;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: greenyellow;
+    margin: 15px 15px;
+    font-size: 30px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    border-top: 2px solid rgb(84, 84, 84);
+}
+.counter img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.counter img:hover{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(128, 128, 128);
+    
+    
+}
+.counter span{
+    background-color: rgb(62, 62, 194);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+.deactive {
+    opacity: 0.3 !important
+}
